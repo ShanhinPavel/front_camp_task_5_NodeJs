@@ -1,0 +1,27 @@
+{
+  "name": "front_camp_task_5_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShanhinPavel/front_camp_task_5_NodeJs.git"
+  },
+  "author": "Pavel Shanhin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShanhinPavel/front_camp_task_5_NodeJs/issues"
+  },
+  "homepage": "https://github.com/ShanhinPavel/front_camp_task_5_NodeJs#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1",
+    "pug": "^2.0.4"
+  },
+  "dependencies": {
+    "winston": "^3.2.1"
+  }
+}
