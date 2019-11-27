@@ -1,10 +1,13 @@
 const express = require("express");
+const logger = require('./helpers/logger')
 
 const app = express();
 const news = require("./routes");
 
 app.set("views", __dirname + "/views");
 app.set("view engine", "pug");
+
+app.use(logger)
 
 app.use("/news", news);
 app.get("/error", (req, res) => {
